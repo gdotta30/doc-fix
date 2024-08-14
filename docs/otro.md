@@ -17,5 +17,3 @@ To implement a communication interface between Mini Apps and Super Apps, visit t
 ## Conclusion
 
 Once the "Skeleton" of the ExternalApi is built, the iteration is reduced to creating new methods with the GeneXus External Object and their respective IMethodInvokers (or IMethodInvokerWithActivityResult) in the native implementation and then "registering" them through ExternalApi.addMethodHandler.
-
-[otro](docs/otro.md)
